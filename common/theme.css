@@ -1,7 +1,7 @@
-:root{
-  --color-primary: #E8614B;
+:root {
+  --color-primary: #e8614b;
   --color-primary-light: white;
-  --color-secondary: #2F3440;
+  --color-secondary: #2f3440;
   --color-accent: black;
   --font-primary: "Lato", sans-serif;
 }
