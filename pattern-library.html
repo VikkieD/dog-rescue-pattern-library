@@ -20,7 +20,9 @@
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#typography">Typography</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#grid">Grid</a></li>
               <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#modules">Modules</a></li>
+              <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#icons">Icons</a></li>
                 <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#buttons">Buttons</a></li>
+                <li><a class="gutter pad-t-1-4 pad-b-1-4 block" href="#cards">Cards</a></li>
           </ul>
         </nav>
       </div>
@@ -370,6 +372,39 @@
 
 </section>
 
+        <section class="pattern" id="icons">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Icons</h2>
+    </div>
+
+      <div class="pattern-desc milli island">
+        <div class="max-length"><p>The sprite sheet contains the following icons that are available for use in the website. Combine the icons with <a href="https://modulifier.web-dev.tools">Modulifier</a> classes for lots of variability.</p>
+</div>
+      </div>
+  </div>
+
+  
+
+    <div class="pattern-details push" id="icons-icons">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/icons/1-icons.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;i class="icon i-192"&gt;
+  &lt;svg>&lt;use xlink:href="images/icons.svg#ID-FROM-LIST"/>&lt;/svg>
+&lt;/i>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons">
   <div class="push">
     <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
@@ -377,9 +412,9 @@
     </div>
 
       <div class="pattern-desc milli island">
-        <div class="max-length"><p>The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:</p>
+        <div class="max-length"><p>Buttons in this website will use the primary color to help them stand out against the white and navy blue backgrounds. Each button has a specific purpose:</p>
 <ul>
-<li>The regular buttons are for cards, forms and where the background is a light colour</li>
+<li>The buttons with the icons direct you to the main sections of the website</li>
 <li>The light buttons are for dark background areas</li>
 <li>The ghost buttons should be used exclusively on banners where the background is an image</li>
 </ul>
@@ -400,6 +435,57 @@
               <code><pre>&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
 &lt;a class="btn btn-light" href="#">Light button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="cards">
+  <div class="push">
+    <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-4">
+      <h2 class="pattern-name peta push-1-8">Cards</h2>
+    </div>
+
+  </div>
+
+  
+
+    <div class="pattern-details push" id="cards-basic-card">
+
+      <div class="pattern-examples">
+        <div class="gutter">
+          <iframe class="push" src="patterns/cards/basic-card.html" onload="resizeIframe(this)"></iframe>
+        </div>
+          <div class="gutter">
+            <div class="pattern-code milli island-1-2">
+              <code><pre>&lt;div class="card-1 island-1-2 push-2"&gt;
+  &lt;div class="image">
+    &lt;img class="img-flex" src="images/example.svg" alt="">
+  &lt;/div>
+  &lt;div class="info">
+    &lt;h2 class="h2-1 push-1-4">This is an adoption card&lt;/h2>
+    &lt;p class="p-1 push-0">This is a card that will display basic information about the dog, a picture of the dog and a small button to go to a seperate page to read more about the dog.&lt;/p>
+    &lt;div clas="button push-2 text-center">
+      &lt;a class="btn btn-light" href="#">View more info&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+
+&lt;div class="card-2 island-1-2 push-2">
+  &lt;div class="image">
+    &lt;img class="img-flex" src="images/example.svg" alt="">
+  &lt;/div>
+  &lt;div class="info">
+    &lt;h2 class="h2-2 push-1-4">This is an adoption card&lt;/h2>
+    &lt;p class="p-2 push-0">This is a card that will display basic information about the dog, a picture of the dog and a small button to go to a seperate page to read more about the dog.&lt;/p>
+    &lt;div clas="button push-2 text-center">
+      &lt;a class="btn btn-light" href="#">View more info&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
 </pre></code>
             </div>
           </div>

@@ -1,0 +1,32 @@
+.card-1 {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.h2-1 {
+  color: #fff;
+}
+
+.p-1 {
+  color: var(--color-secondary);
+}
+
+.card-2 {
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+}
+
+.h2-2 {
+  color: var(--color-primary);
+}
+
+.p-2 {
+  color: #fff;
+}
+
+.button {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+
+  color: #fff;
+}
