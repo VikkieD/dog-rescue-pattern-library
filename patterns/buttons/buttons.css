@@ -18,3 +18,16 @@
 
   color: var(--color-secondary);
 }
+
+.btn-icon {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+  color: var(--color-primary);
+}
+
+.btn-icon:hover {
+  background-color: transparent;
+  color: black;
+}
