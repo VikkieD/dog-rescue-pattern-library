@@ -1,0 +1,27 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  text-align: left;
+  background-image: url("../images/header-image.jpg");
+  background-color: transparent;
+}
+
+footer {
+  background-color: #2f3440;
+}
+
+h1 {
+  color: #fff;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: #e8614b;
+}

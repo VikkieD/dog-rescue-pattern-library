@@ -1,0 +1,53 @@
+html {
+  font-family: "Lato", sans-serif;
+}
+
+.nav a {
+  background-color: #2f3440;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e8614b;
+}
+
+.card-1 {
+  background-color: #e8614b;
+  border-radius: 10px;
+}
+
+.card-2 {
+  background-color: #2f3440;
+  border-radius: 10px;
+}
+
+.card-3 {
+  background-color: #e8614b;
+  border-radius: 10px;
+}
+
+.card-4 {
+  background-color: #2f3440;
+  border-radius: 10px;
+}
+
+.h2-1 {
+  color: #fff;
+}
+
+.p-1 {
+  color: #2f3440;
+}
+
+.h2-2 {
+  color: #e8614b;
+}
+
+.p-2 {
+  color: #fff;
+}
+
+.button {
+  color: #fff;
+}
