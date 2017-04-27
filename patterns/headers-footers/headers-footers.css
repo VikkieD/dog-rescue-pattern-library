@@ -3,17 +3,16 @@ html {
 }
 
 header {
-  text-align: left;
-  background-image: url("../images/header-image.jpg");
-  background-color: transparent;
-}
-
-footer {
+  text-align: center;
   background-color: #2f3440;
 }
 
+footer {
+  background-color: #e8614b;
+}
+
 h1 {
-  color: #fff;
+  color: #e8614b;
 }
 
 .nav a {

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
+  <link href="../patterns/headers-footers/headers-footers.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../patterns/forms/forms-and-fields.css" rel="stylesheet">
+  <link href="../patterns/navigations-sections/navigations-sections.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass:400,400i,700" rel="stylesheet">
+</head>
+<body>
+  <header role="banner" id="banner">
+    <i class="icon i-64"><svg><use xlink:href="../../images/logos.svg#logo-256" /></svg></i>
+    <div class="push-1-2">
+      <h1 class="valign-middle push-0 yetta">Birch Haven Rescue and Rehabilitation Services</h1>
+    </div>
+    <nav>
+      <ul class="nav list-group list-group-inline push-0 giga">
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#about">About Us</a></li>
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#products">Adoption</a></li>
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#people">Guestbook</a></li>
+        <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#contact">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <img class="img-flex" src="../images/header-image.jpg" alt="">
+  </div>
+  <div class="grid">
+    <div class="unit island-1-2 xs-1 s-1 m-1 l-1">
+      <a class="btns btn-icon icon i-192" href="#">
+        <svg><use xlink:href="../../images/buttons.svg#button-help" /></svg>
+      </a>
+      <a class="btns btn-icon icon i-192" href="#">
+        <svg><use xlink:href="../../images/buttons.svg#button-guestbook" /></svg>
+      </a>
+      <a class="btns btn-icon icon i-192" href="#">
+        <svg><use xlink:href="../../images/buttons.svg#button-home" /></svg>
+      </a>
+      <a class="btns btn-icon icon i-192" href="#">
+        <svg><use xlink:href="../../images/buttons.svg#button-adoption" /></svg>
+      </a>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="unit island-1-2 xs-1 s-1 m-1 l-1">
+      <form class="max-length island" method="post" novalidate="">
+        <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icons i-32"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+            <span class="icon-label">There are items that require your attention</span>
+          </h3>
+        </div>
+
+        <div class="push-1-2">
+          <label for="name">Full Name</label>
+          <input id="name" required aria-describedby="name-error">
+          <p class="error-message milli island-1-4 push-0" id="name-error">
+            <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+            <span class="icon-label">Please provide a full name</span>
+          </p>
+        </div>
+
+        <div class="push-1-2">
+          <label for="email">Email</label>
+          <input id="email" required aria-describedby="email-error">
+          <p class="error-message milli island-1-4 push-0" id="email-error">
+            <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+            <span class="icon-label">Please provide a properly formatted email address</span>
+          </p>
+        </div>
+
+        <div class="push-1-2">
+          <label for="comments">Additional Comments<em class="flag-optional milli normal">(optional)</em></label>
+          <input type="comments" id="comments">
+        </div>
+
+        <div class="push-1-2 pad-t-1-2">
+          <input type="checkbox" id="agree" required aria-describedby="agree-error">
+          <label for="agree">I accept the terms and conditions.</label>
+          <p class="error-message milli island-1-4 push-0" id="agree-error">
+            <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+            <span class="icon-label">Please agree that you agree to the terms and conditions.</span>
+          </p>
+        </div>
+
+        <form class="max-length island" method="post" novalidate="">
+          <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+            <h3 class="push-0">
+              <i class="icons i-32"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+              <span class="icon-label">There are items that require your attention</span>
+            </h3>
+          </div>
+
+          <div class="push-1-2">
+            <label for="name">Full Name</label>
+            <input id="name" required aria-describedby="name-error">
+            <p class="error-message milli island-1-4 push-0" id="name-error">
+              <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+              <span class="icon-label">Please provide a full name</span>
+            </p>
+          </div>
+
+          <div class="push-1-2">
+            <label for="email">Email</label>
+            <input id="email" required aria-describedby="email-error">
+            <p class="error-message milli island-1-4 push-0" id="email-error">
+              <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+              <span class="icon-label">Please provide a properly formatted email address</span>
+            </p>
+          </div>
+
+          <div class="push-1-2">
+            <label for="comments">Additional Comments<em class="flag-optional milli normal">(optional)</em></label>
+            <input type="comments" id="comments">
+          </div>
+
+          <div class="push-1-2 pad-t-1-2">
+            <input type="checkbox" id="agree" required aria-describedby="agree-error">
+            <label for="agree">I accept the terms and conditions.</label>
+            <p class="error-message milli island-1-4 push-0" id="agree-error">
+              <i class="icons i-16"><svg><use xlink:href="../../images/error-icon.svg#error" /></svg></i>
+              <span class="icon-label">Please agree that you agree to the terms and conditions.</span>
+            </p>
+          </div>
+
+        <div class="pad-t-1-2">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="max-length island-1-2">
+      <small class="block push-1-2">© Birch Haven Rescue and Rehabilitation Services</small>
+      <nav>
+        <ul class="nav list-group list-group-inline push-0 milli">
+          <li><a class="block" href="#about">About Us</a></li>
+          <li><a class="block" href="#products">Adoption</a></li>
+          <li><a class="block" href="#people">Guestbook</a></li>
+          <li><a class="block" href="#contact">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
